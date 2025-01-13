@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reflectionism Museum</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex w-full px-96 absolute z-10 mt-8 text-xl text-white">
+        <a href="#" class="font-extrabold">Home</a>
+        <a href="#info" class="ml-auto">Info</a>
+        <a href="#gallery" class="ml-16">Gallery</a>
+        <a href="#gallery" class="ml-16">About</a>
+    </nav>
+
+    <section id="banner" class="flex">
+        <img id="banner-img" src="images/death.png"/>
+        <div id="banner-title" class="self-center mx-96">
+            <p class="text-8xl w-1/2 mb-8">The Reflectionism Museum.</p>
+            <p class="text-3xl w-1/2 mb-8">Exploring the parallels between literature and the real world.</p>
+            <a id="cta" class="text-xl" href="#info">See More &rarr;</a>
+        </div>
+    </section>
+
+    <section id="info" class="px-96 pt-32 pb-64">
+        <p class="text-8xl mb-8">Literature vs. Real Life.</p>
+        <p class="text-3xl mb-16"> The experiences of characters depicted in literature is often a reflection of the discrimination faced by marginalized groups in real life. The reflectionism museum is a visual representation of the fundamental literary idea of reflectionism.</p>
+        <div class="flex">
+            <div class="info-img-container mr-8">
+                <img class="info-img" src="images/paper menagerie.jpg"/>
+                <p class="info-img-text text-xl">A story centered around a boy distancing himself from his mother due to anti-asian racism</p>
+            </div>
+            <div class="info-img-container mr-8">
+                <img class="info-img" src="images/vincent chin.jpg"/>
+                <p class="info-img-text text-xl">paper menagerie, a story about x y z and this what</p>
+            </div>
+            <div class="info-img-container mr-8">
+                <img class="info-img" src="images/paper menagerie.jpg"/>
+                <p class="info-img-text text-xl">paper menagerie, a story about x y z and this what</p>
+            </div>
+            <div class="info-img-container">
+                <img class="info-img" src="images/paper menagerie.jpg"/>
+                <p class="info-img-text text-xl">paper menagerie, a story about x y z and this what</p>
+            </div>
+        </div>
+    </section>
+
+    <!--https://www.divinectorweb.com/2022/03/card-flip-animation.html-->
+    <section id="gallery">
+        <div class="px-72 mb-64 gallery-bg-img-container">
+            <img class="gallery-bg-img" src="images/taliban.webp">
+            <div class="card-wrapper text-xl">
+                <div id="box1">
+                    <div class="front">
+                        <div class="shift-container flex">
+                            <img src="images/and the mountains echoed.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">And the Mountains Echoed.</p>
+                                <p class="text-3xl mb-16">Khaled Hosseini &bullet; May 21, 2013</p>
+                                <p class="mb-16">
+                                    <em>And the Mountains Echoed</em> by Khaled Hosseini is a text that follows the life of multiple characters after Saboor decides to sell his daughter Pari to support his family. Through the multiple chapters, each in the perspective of different characters, the text explores themes of love in human relationships by showing how characters stay connected regardless of physical (different countries, different backgrounds) and generational (living in different times) barriers.
+                                </p>
+                                <a class="animate1" href="#">Real Life &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="shift-container flex">
+                            <img src="images/islamophobia.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Islamaphobia After 9/11.</p>
+                                <p class="text-3xl mb-16">2001 - Present</p>
+                                <p class="mb-8">
+                                    A few years before the publishing of <em>And the Mountains Echoed</em>, a large spike in Islamophobia occured as a result of the 9/11 terrorist attacks.
+                                </p>
+                                <p class="mb-16">
+                                    The story is centered around human love regardless of background, and the connections between Afghan and non-Afghan characters are a reflection of the ideals that muslims held while fighting back against Islamaphobia.
+                                </p>
+                                <a class="animate1 close text-black" href="#">Literature &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="px-72 mb-64 gallery-bg-img-container">
+            <img class="gallery-bg-img" src="images/mexico.webp">
+            <div class="card-wrapper text-xl">
+                <div id="box2">
+                    <div class="front">
+                        <div class="shift-container flex">
+                            <img src="images/danger of a single story.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">The Danger of a Single Story.</p>
+                                <p class="text-3xl mb-16">Chimamanda Ngozi Adichie &bullet; Oct 7, 2009</p>
+                                <p class="mb-16">
+                                    <em>The Danger of a Single Story</em> by Chimamanda Ngozi Adichie is a speech that discusses why it is dangerous to believe in one single perspective. For example, Adichie recounts how she was stereotyped in university because she was African, and how she fell victim to a single story about Mexican immigration, among other examples. 
+                                </p>
+                                <a class="animate2" href="#">Real Life &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="shift-container flex">
+                            <img src="images/blm.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Anti-black racism &amp; stereotyping</p>
+                                <p class="text-3xl mb-16">Present</p>
+                                <p class="mb-16">
+                                    In the modern day, one of the most prevalent forms of anti-black racism is microaggressions through stereotyping. In her speech, Adichie discusses instances of classist stereotypes against her due to her race. Adichie mentions how her professor stereotyped Africans to be poor and uneducated, resulting in an unfair grade on her assignment. These experiences are a direct reflection of the stereotyping faced by black people today.
+                                </p>
+                                <a class="animate2 close text-black" href="#">Literature &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-72 mb-64 gallery-bg-img-container">
+            <img class="gallery-bg-img" src="images/the man.jpg">
+            <div class="card-wrapper text-xl">
+                <div id="box3">
+                    <div class="front">
+                        <div class="shift-container flex">
+                            <img src="images/mad woman.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Mad Woman.</p>
+                                <p class="text-3xl mb-16">Taylor Swift &bullet; Jul 24, 2020</p>
+                                <p class="mb-16">
+                                    <em>Mad Woman</em> by Taylor Swift is a song that fights against traditional gender expectations of women. Through various literary devices, such as violent lyrics juxtaposed with soft delivey, Swift details experiences of being manipulated while challenging traditional gender norms.
+                                </p>
+                                <a class="animate3" href="#">Real Life &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="shift-container flex">
+                            <img src="images/gender roles.webp" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Modern gender expectations.</p>
+                                <p class="text-3xl mb-16">Present</p>
+                                <p class="mb-16">
+                                    In the modern day, gender roles exist as normalized behaviours for men and women. In her song, Swift's experiences and literary devices are a reflection of the ideals of fighting against these normalized gendered behaviours.
+                                </p>
+                                <a class="animate3 close text-black" href="#">Literature &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-72 mb-64 gallery-bg-img-container">
+            <img class="gallery-bg-img" src="images/the jetsons.webp">
+            <div class="card-wrapper text-xl">
+                <div id="box4">
+                    <div class="front">
+                        <div class="shift-container flex">
+                            <img src="images/how long til.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">How Long 'til Black Future Month?</p>
+                                <p class="text-3xl mb-16">N.K. Jemisin &bullet; Nov 2018</p>
+                                <p class="mb-16">
+                                    <em>How Long 'til Black Future Month?</em> by N.K. Jemisin is an essay that discusses the lack of black diversity in speculative fiction works, which Jemisin experienced firsthand growing up.
+                                </p>
+                                <a class="animate4" href="#">Real Life &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="shift-container flex">
+                            <img src="images/black representation.webp" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Lack of Black Representation in Media</p>
+                                <p class="text-3xl mb-16">Present</p>
+                                <p class="mb-16">
+                                    In Jemisin's essay, she cites her experiences watching <em>The Jetsons</em>, among other speculative fiction works, only to not find any black characters. Her experiences reflect the lack of black representation in media today.
+                                </p>
+                                <a class="animate4 close text-black" href="#">Literature &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-72 mb-64 gallery-bg-img-container">
+            <img class="gallery-bg-img" src="images/vincent chin.jpg">
+            <div class="card-wrapper text-xl">
+                <div id="box5">
+                    <div class="front">
+                        <div class="shift-container flex">
+                            <img src="images/paper menagerie.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">The Paper Menagerie.</p>
+                                <p class="text-3xl mb-16">Ken Liu &bullet; 2011</p>
+                                <p class="mb-16">
+                                    <em>The Paper Menagerie</em> by Ken Liu is a story that follows Jack, a young boy who was born in America to a white father and Chinese immigrant mother. As he grows up, he begins neglecting his Chinese mother as a result of his experiences with anti-asian racism, which leads to him not caring for her until after her death, regardless of her love for him.
+                                </p>
+                                <a class="animate5" href="#">Real Life &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="shift-container flex">
+                            <img src="images/asian racism.avif" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Anti-asian Racism.</p>
+                                <p class="text-3xl mb-16">1982 - Present</p>
+                                <p class="mb-16">
+                                    In 1982, Vincent Chin was murdered in an act of anti-asian racism, after being accused of taking the jobs of white auto manufacturers because he was Asian. The inciting incident in <em>The Paper Menagerie</em> parallels this, with Jack's friend calling his toy "cheap Chinese garbage", and insulting him because of it. The anti-asian racism in the story reflects anti-asian racism in real life.
+                                </p>
+                                <a class="animate5 close text-black" href="#">Literature &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-72 mb-64 gallery-bg-img-container">
+            <img class="gallery-bg-img" src="images/jfk.png">
+            <div class="card-wrapper text-xl">
+                <div id="box6">
+                    <div class="front">
+                        <div class="shift-container flex">
+                            <img src="images/mushrooms.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Mushrooms.</p>
+                                <p class="text-3xl mb-16">Sylvia Plath &bullet; 1960</p>
+                                <p class="mb-16">
+                                    <em>Mushrooms</em> by Sylvia Plath is a poem that explores the idea of women uprising against classist barriers in society through a metaphor of mushrooms growing. 
+                                </p>
+                                <a class="animate6" href="#">Real Life &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="shift-container flex">
+                            <img src="images/second wave of feminisim.jpg" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">The Second Wave of Feminism.</p>
+                                <p class="text-3xl mb-16">1960s - 1970s</p>
+                                <p class="mb-16">
+                                    Starting in the 1960s, the "second wave of feminism" began. Plath's poem, published around the same time, reflects the ideals of Women fighting against discrimination in the form of classism. For example, as a result of the second wave of feminism in 1963, president John F. Kennedy signed the Equal Pay Act, which stated that women could no longer be paid less than men for doing comparable work. 
+                                </p>
+                                <a class="animate6 close text-black" href="#">Literature &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-72 mb-64 gallery-bg-img-container">
+            <img class="gallery-bg-img" src="images/death.png">
+            <div class="card-wrapper text-xl">
+                <div id="box7">
+                    <div class="front">
+                        <div class="shift-container flex">
+                            <img src="images/tchalla.png" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">Black Panther.</p>
+                                <p class="text-3xl mb-16">Ryan Coogler &bullet; Feb 16, 2018</p>
+                                <p class="mb-16">
+                                    <em>Black Panther</em> by Ryan Coogler is a film that is set in the fictional African country of Wakanda, which is filled with futuristic technology derived from metal from a meteor. Black panther explores the consequences of African Diaspora, with the main villain Killmonger's beliefs directly contrasting those of the Wakandan king T'Challa, which results in a battle to the death between the two.
+                                </p>
+                                <a class="animate7" href="#">Real Life &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="shift-container flex">
+                            <img src="images/diaspora.webp" class="front-img mr-16"/>
+                            <div>
+                                <p class="text-8xl mb-8">African Diaspora.</p>
+                                <p class="text-3xl mb-16">Present</p>
+                                <p class="mb-16">
+                                    African diaspora is the dispersion of Africans from their homeland. African diaspora specifically is largely a result of colonization and slavery. This form of discrimination is reflected in <em>Black Panther</em>, with Killmonger being a product of the diaspora.  
+                                </p>
+                                <a class="animate7 close text-black" href="#">Literature &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	<script>
+	$(document).ready(function(){
+	 $('.animate1').click(function(){
+	   $('#box1').toggleClass('animated');
+	   return false;
+	 });
+     $('.animate2').click(function(){
+        $('#box2').toggleClass('animated');
+        return false;
+      });
+      $('.animate3').click(function(){
+        $('#box3').toggleClass('animated');
+        return false;
+      });
+      $('.animate4').click(function(){
+        $('#box4').toggleClass('animated');
+        return false;
+      });
+      $('.animate5').click(function(){
+        $('#box5').toggleClass('animated');
+        return false;
+      });
+      $('.animate6').click(function(){
+        $('#box6').toggleClass('animated');
+        return false;
+      });
+      $('.animate7').click(function(){
+        $('#box7').toggleClass('animated');
+        return false;
+      });
+      $('.animate8').click(function(){
+        $('#box8').toggleClass('animated');
+        return false;
+      });
+	});
+	</script>
+</body>
+</html>
