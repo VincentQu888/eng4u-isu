@@ -71,7 +71,7 @@ body{
 .card-wrapper #box6 .back,
 .card-wrapper #box7 .back,
 .card-wrapper #box8 .back{
-	background-color: #fff;
+	background-color: #f3f3f3;
 	transform: rotateY(180deg);
 }
 
@@ -108,11 +108,41 @@ body{
     z-index: 100;
 }
 
-#banner-img{
+#banner-img-1{
     position: fixed;
     height: 80vh;
     width: 100vw;
     object-fit: cover;
+    filter: brightness(0.9);
+    animation: fade 9s infinite;
+    animation-delay: 6s;
+}
+
+#banner-img-2{
+    position: fixed;
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.7);
+    animation: fade 9s infinite;
+    animation-delay: 3s;
+}
+
+#banner-img-3{
+    position: fixed;
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.8);
+    animation: fade 9s infinite;
+    animation-delay: 0s;
+}
+
+@keyframes fade {
+    0% { opacity: 1; }
+    33% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 0; }
 }
 
 #info{
@@ -127,6 +157,7 @@ body{
     background-color: #141414;
     position: relative;
     z-index: 100;
+    height: 1000vh;
 }
 
 nav a:hover::after,
@@ -221,7 +252,7 @@ nav a,
 }
 
 .info-img-container:hover .info-img-text{
-    transform: translateY(-4rem);
+    transform: translateY(-8rem);
 }
   
 .gallery-bg-img{
@@ -234,3 +265,24 @@ nav a,
     filter: brightness(0.8);
 }
 
+#box7 .front{
+    background-color: #af93fd !important;
+    color: #fff;
+}
+
+#box7 .back{
+    background-color: #846fbe !important;
+    color: #fff;
+}
+
+#box3 .front,
+#box8 .front{
+    background-color: #e893fd !important;
+    color: #fff;
+}
+
+#box3 .back,
+#box8 .back{
+    background-color: #b750d1 !important;
+    color: #fff;
+}
